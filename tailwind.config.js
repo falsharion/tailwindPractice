@@ -26,7 +26,7 @@ module.exports = {
         '50h': '50vh'
       },
       width:{
-        '50w': '50vh'
+        '50w': '46.5vh'
       },
       animation: {
         steady: "steady 4s infinite",
@@ -92,13 +92,6 @@ module.exports = {
           },
         }
       }
-    },
-  },
-  variants: {
-    extend: {
-      display: ['group-focus'],
-      opacity: ['group-focus'],
-      inset: ['group-focus']
     },
   },
   plugins: [
