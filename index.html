@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>metaverse</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body class="overflow-x-hidden box-border transition-all duration-300">
@@ -38,7 +40,7 @@
                             <div class="w-5 h-1 bg-gray-600"></div>
                         </button>
                         <nav id="nav"
-                            class="fixed top-14 bottom-0 -right-full h-50h w-96 bg-white transition-all duration-300 md:hidden">
+                            class="fixed top-14 bottom-0 -right-full h-50h w-screen bg-white transition-all duration-300 md:hidden">
                                 <ul class="flex flex-col items-center w-full text-base cursor-pointer justify-evenly items-center h-50h">
                                     <li class="hover:text-black">
                                         <a class="block p-3" href="#home">
@@ -97,20 +99,26 @@
                 <!-- hero page starting -->
                 <div id="home"
                     class="h-screen mx-6 flex shrink grow basis-0 flex-col justify-center items-center text-center z-1 ">
-                    <div>
+                    <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000">
                         <strong>
                             <h1 class="text-larges text-center leading-tight md:text-mids">Explore Islands, Together
                             </h1>
                         </strong>
                     </div>
-                    <div>
+                    <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000">
                         <h3 class="text-center text-tiny text-gray-500 py-5 mt-9 md:text-tinies py-3 mt-7">Islands is
                             your passport to the metaverse
                         </h3>
                     </div>
-                    <div class="flex flex-col items-center justify-center mt-16 md:flex-row mt-5">
+                    <div  data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="3000"class="flex flex-col items-center justify-center mt-16 md:flex-row mt-5">
                         <strong
-                            class="bg-slate-50 rounded-full shadow-zinc-400 mb-5 px-12 py-5 drop-shadow-md hover:bg-zinc-200"><a
+                            class="bg-slate-50 rounded-full shadow-zinc-400 mb-5 px-12 py-5 hover:bg-zinc-200"><a
                                 href="#"><span class="text-black text-xl">
                                     Get Started</span></a></strong>
                         <strong class="px-12 py-5 md:mb-5"><a href="#"><span
@@ -125,8 +133,10 @@
         </div>
         <main>
             <!-- display picture -->
-            <div class="relative mx-6 my-14 lg:flex justify-center">
-                <img src="https://www.datocms-assets.com/55713/1634897522-visual-2x.png" alt="Profile preview"
+            <div class="mx-6 my-14 lg:flex justify-center">
+                <img src="https://www.datocms-assets.com/55713/1634897522-visual-2x.png" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500" alt="Profile preview"
                     class="lg:w-3/4" title="Profile preview">
             </div>
 
@@ -142,7 +152,9 @@
                             profile for all your NFTs regardless of which wallet or blockchain they are issued on.
                         </h4>
                     </div>
-                    <div class="relative mx-6 my-14 lg:flex justify-center">
+                    <div data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" class="mx-6 my-14 lg:flex justify-center">
                         <img src="https://www.datocms-assets.com/55713/1634897551-gallery-2x.png" alt="Gallery preview"
                             class="lg:w-3/4" title="Gallery preview ">
                     </div>
@@ -159,7 +171,9 @@
                         Storefront
                         aggregation across all your favorite marketplaces starting with OpenSea.</h4>
                 </div>
-                <div class="relative mx-6 my-14 lg:flex justify-center">
+                <div data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class="mx-6 my-14 lg:flex justify-center">
                     <img src="https://www.datocms-assets.com/55713/1634897938-storefront-2x.png" class="lg:w-3/4"
                         alt="Storefront preview" title="Storefront preview">
                 </div>
@@ -179,7 +193,9 @@
                             soon</a>
                     </div>
                 </div>
-                <div class="mx-6 my-14 lg:flex justify-center">
+                <div data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class="mx-6 my-14 lg:flex justify-center">
                     <img src="https://www.datocms-assets.com/55713/1634897927-threads-new-2x.png" alt="Threads preview"
                         class="lg:w-3/4" title="Threads preview">
                 </div>
@@ -203,7 +219,9 @@
             <div>
                 <div>
                     <div class="w-full h-screen flex flex-col justify-center mx-8">
-                        <div>
+                        <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                             <h5 class="mb-10 text-tinies">island</h5>
                             <p class="w-9/12 text-white/50 mb-10">Stay up to date on new releases, interviews, events,
                                 and updates from Islands community.
@@ -214,8 +232,10 @@
                                     newsletter</a>
                             </div>
                         </div>
-                        <div>
-                            <h6 class="pb-5">Resources</h6>
+                        <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="2000">
+                            <h6 class="pb-5" >Resources</h6>
                             <ul class="flex flex-col text-white/50">
                                 <li class="hover:text-pink-300">FAQ</li>
                                 <li class="hover:text-pink-300">Media</li>

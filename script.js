@@ -1,5 +1,6 @@
 
-// navSlide();
+AOS.init();
+
 const toggles = document.getElementById("toggles");
 let nav = document.getElementById("nav");
 
