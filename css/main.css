@@ -638,6 +638,18 @@ video {
   right: -100%;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
 .m-12 {
   margin: 3rem;
 }
